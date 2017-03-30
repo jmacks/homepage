@@ -8,5 +8,8 @@
     "start": "node server.js"
   },
   "author": "Jeff Macks",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "fullpage.js": "^2.9.4"
+  }
 }
