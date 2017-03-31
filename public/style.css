@@ -1,3 +1,66 @@
 html {
   font-family: 'Quicksand', sans-serif;
 }
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 70;
+  /*background-color: white;*/
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+nav li {
+  /*display: inline;*/
+  float: left;
+  padding-left: 14px;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: black;
+  color: white;
+}
+
+#section1 {
+  font-weight: bold;
+  font-size: 45px;
+  background-color: #3F3F3F;
+  background-image: url('/images/computer-black-white.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+}
+
+#intro-section {
+  background-color:rgba(0, 0, 0, 0.5);
+  margin: auto;
+  width: auto;
+  height: auto;
+  overflow: auto;
+}
+
+#intro-text {
+  margin: auto;
+}
+
+#section2 {
+  font-size: 75px;
+  background-color: #9A3334;
+  color: #F3EFE0;
+}

@@ -11,8 +11,56 @@
 
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+
   </head>
   <body>
-    <h1>Jeff Macks</h1>
+    <nav class="nav-bar">
+      <ul>
+        <li id="logo" style="float:right">Jeff Macks</li>
+        <li><a href="#part1">Home</a></li>
+        <li><a href="#part2">Projects</a></li>
+        <li><a href="#part3">About</a></li>
+      </ul>
+    </nav>
+
+
+    <div id="fullpage">
+	<div class="section" id="section1" data-anchor="part1">
+    <div id="intro-section">
+      <div id="intro-text">
+          <h2>Hi! I'm Jeff Macks, developer and builder of things</h2>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" id="section2" data-anchor="part2">
+    <div>
+      Under Construction...Fixing up projects and adding soon!!!
+    </div>
+  </div>
+
+
+
+	<div class="section" id="section3" data-anchor="part3">
+    Some things about me...
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.fullPage.js"></script>
+    <script type="text/javascript" src="script.js"></script>
   </body>
 </html>
